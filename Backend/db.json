@@ -1,0 +1,34 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Caneta Bic",
+            "price": 5.89
+        },
+        {
+            "id": 2,
+            "name": "Caneta Compacto",
+            "price": 5.00
+        },
+        {
+            "id": 3,
+            "name": "Régua",
+            "price": 4.89
+        },
+        {
+            "id": 4,
+            "name": "Grampeador",
+            "price": 3.60
+        },
+        {
+            "id": 5,
+            "name": "Pincel",
+            "price": 7.00
+        },
+        {
+            "id": 6,
+            "name": "Caderno",
+            "price": 2.50
+        } 
+    ]
+}
