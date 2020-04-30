@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +18,19 @@ import { RedDirective } from './directives/red.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { ProductReadComponent } from './components/product-read/product-read.component';
+import {MatTableModule} from '@angular/material/table';
+import {CdkTableModule} from '@angular/cdk/table';
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
@@ -29,6 +42,9 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     ProductCrudComponent,
     RedDirective,
     ProductCreateComponent,
+    ProductReadComponent,
+    ProductDeleteComponent,
+    ProductUpdateComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,9 +55,19 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatTableModule,
+    CdkTableModule
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID,
+    useValue: 'pt-BR'
+  }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

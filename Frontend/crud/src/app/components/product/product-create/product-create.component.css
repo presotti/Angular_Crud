@@ -3,5 +3,23 @@
 }
 
 .btnSalvar{
-  background-color: green;
+  background-color: blue;
+}
+
+.fundo1{
+  background-color: silver;
+}
+
+.fundo2{
+  color: black;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  margin-right: 15px;
+  margin-top: 20px;;
 }

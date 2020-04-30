@@ -9,3 +9,9 @@ ng generate component
 ng g s services/ + nome da classe 
 
 ng g d directives/ + nome da diretiva
+
+npm install -g json-server
+
+npm start
+
+npm update
