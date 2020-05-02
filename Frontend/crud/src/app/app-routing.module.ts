@@ -16,15 +16,15 @@ const routes: Routes = [{
   component: ProductCrudComponent
 },
 {
-  path: 'product/product-create',
+  path: 'product/create',
   component: ProductCreateComponent
 },
 {
-  path: 'product/delete',
+  path: 'product/delete/:id',
   component: ProductDeleteComponent
 },
 {
-  path: 'product/upgrade',
+  path: 'product/update/:id',
   component: ProductUpdateComponent
 }
 ];

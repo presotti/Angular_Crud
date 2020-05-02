@@ -1,1 +1,19 @@
-<p>product-delete works!</p>
+<mat-card class="fundo1">
+  <mat-card-title class="fundo2">Excluir Produto</mat-card-title>
+  <form>
+    <mat-form-field>
+      <mat-label>Nome</mat-label>
+      <input matInput [value]="product.name" name="name" disabled>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Preço (R$)</mat-label>
+      <input matInput [value]="product.price" name="price" disabled>
+    </mat-form-field>
+  </form>
+  <button mat-raised-button class="btnSalvar" (click)="delete()">
+    Deletar
+  </button>
+  <button mat-raised-button class="btnCancel" (click)="cancel()">
+    Cancel
+  </button>
+</mat-card>

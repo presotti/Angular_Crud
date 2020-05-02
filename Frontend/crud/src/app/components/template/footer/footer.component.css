@@ -3,8 +3,6 @@
   bottom: 0;
   display: flex;
   justify-content: flex-end;
-  color: black;
-  background-color: whitesmoke;
 }
 
 .footer > span{

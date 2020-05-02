@@ -22,7 +22,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { ProductReadComponent } from './components/product-read/product-read.component';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import {MatTableModule} from '@angular/material/table';
 import {CdkTableModule} from '@angular/cdk/table';
 import localePt from '@angular/common/locales/pt';

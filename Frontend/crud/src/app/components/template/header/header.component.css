@@ -1,8 +1,6 @@
 .header{
   display: flex;
   align-items: center;
-  color: black;
-  background-color: whitesmoke;
 }
 
 .header a{

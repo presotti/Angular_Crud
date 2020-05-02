@@ -6,17 +6,10 @@
   background-color: blue;
 }
 
-.fundo1{
-  background-color: silver;
-}
-
-.fundo2{
-  color: black;
-}
-
 form{
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 button{

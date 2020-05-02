@@ -6,16 +6,6 @@
       "price": 5.89
     },
     {
-      "id": 2,
-      "name": "Caneta Compacto",
-      "price": 5
-    },
-    {
-      "id": 3,
-      "name": "Régua",
-      "price": 4.89
-    },
-    {
       "id": 4,
       "name": "Grampeador",
       "price": 3.6
@@ -23,7 +13,7 @@
     {
       "id": 5,
       "name": "Pincel",
-      "price": 7
+      "price": "10.00"
     },
     {
       "id": 6,
@@ -31,14 +21,19 @@
       "price": 2.5
     },
     {
-      "name": "teste",
-      "price": "6.50",
-      "id": 7
-    },
-    {
       "name": "Celular",
       "price": "1000.00",
       "id": 8
+    },
+    {
+      "name": "Notebook",
+      "price": "5000.00",
+      "id": 9
+    },
+    {
+      "name": "celular",
+      "price": "3000.99",
+      "id": 10
     }
   ]
 }
